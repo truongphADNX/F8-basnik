@@ -1,0 +1,320 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-color: #1ebfc1;
+}
+
+/* common */
+
+.heading {
+    font-weight: 700;
+    color: #0d1111;
+}
+
+.fz62 {
+    font-size: 6.2rem;
+    line-height: 1.16;
+}
+
+.fz42 {
+    font-size: 4.2rem;
+    line-height: 1.33;
+}
+
+.fz22 {
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+
+.btn {
+    min-width: 108px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 48px;
+    text-align: center;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* header */
+.header {
+    padding: 52px 0 12px;
+}
+.header.sticky {
+    position: sticky;
+    top: -40px;
+    z-index: 999;
+}
+.header .body {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header .body .nav-menu {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 40px;
+}
+
+.header .body .actions {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.header .nav-menu a,
+.header .actions .sign-in {
+    font-size: 1.6rem;
+    color: #494949;
+}
+
+.header .nav-menu a:hover,
+.header .nav-menu li.active a {
+    text-shadow: 1px 0 0 currentColor;
+    color: #2f3a3b;
+}
+
+.header .actions .sign-up {
+    margin-left: 24px;
+}
+
+/* hero */
+
+.hero {
+    padding: 38px 0 79px;
+}
+
+.hero .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .hero-content {
+    width: 39.2%;
+}
+
+.hero .hero-images {
+    width: 60.8%;
+}
+
+.hero .hero-content .sub-title {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
+
+.hero .hero-content .title {
+    width: 100%;
+    margin-top: 18px;
+}
+
+.hero .hero-content .desc {
+    white-space: pre-line;
+    max-width: 374px;
+    margin-top: 46px;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #9da6a5;
+}
+
+.hero .actions {
+    display: flex;
+    align-items: center;
+}
+
+.hero .actions {
+    margin-top: 52px;
+}
+
+.hero .actions .hero-btn {
+    min-width: 186px;
+    line-height: 68px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 14px;
+}
+
+.hero .watch-video {
+    width: 62px;
+    height: 62px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+}
+
+.hero .watch-video:hover {
+    box-shadow: 0px 22px 50px rgba(80, 80, 80, 0.2);
+    cursor: pointer;
+}
+
+.hero .actions .watch-video img {
+    object-fit: cover;
+}
+
+.hero .hero-images {
+    position: relative;
+}
+
+.hero .hero-images .img {
+    margin-left: 136px;
+    max-width: 576px;
+    height: 641px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero .hero-images .courses {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 157px;
+    height: 75px;
+    left: 96px;
+    top: 149px;
+    padding: 17px 23px 18px;
+    background: #ffffff;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+}
+
+.hero .courses {
+    position: relative;
+}
+
+.hero .courses .title {
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #0d1111;
+}
+
+.hero .courses::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 28px;
+    height: 4px;
+    left: 27px;
+    top: 45px;
+    background: #ffffff;
+    border-radius: 4px;
+}
+/* schedules */
+
+.hero .schedules {
+    position: absolute;
+    width: 124px;
+    height: 131px;
+    left: 71px;
+    bottom: 46px;
+    padding: 16px 25px 23px;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+    background: #fff;
+}
+
+.hero .schedules .title {
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #0d1111;
+}
+
+.hero .schedules .ratio {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.hero .schedules .ratio li.done-ratio::before {
+    display: block;
+    content: "";
+    width: calc(79px * (var(--done-ratio, 10) / 100));
+    height: 6px;
+    top: 0;
+    left: 0;
+    background: #fb9899;
+    border-radius: 3px;
+}
+
+.hero .schedules .ratio li {
+    width: 74px;
+    height: 6px;
+    background: #edf1f5;
+    border-radius: 3px;
+}
+
+.hero .schedules .ratio li:last-of-type {
+    width: 26px;
+    height: 6px;
+    background: #edf1f5;
+    border-radius: 3px;
+}
+
+.hero .students {
+    padding: 17px 35px;
+    position: absolute;
+    width: 207px;
+    height: 90px;
+    right: 45px;
+    bottom: 41px;
+    background: #ffffff;
+    box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+.hero .students .title {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #0d1111;
+}
+
+.hero .students .avatar-block {
+    margin-top: 8px;
+    display: flex;
+    overflow: hidden;
+}
+
+.hero .students .avatar {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+
+.hero .students .avatar:not(:first-child) {
+    margin-left: -7px;
+}
