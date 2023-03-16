@@ -639,4 +639,106 @@ a {
     bottom: 29px;
 }
 
-/*  */
+/* Invitation */
+
+.invitation {
+    margin-top: 130px;
+    padding: 76px 0 88px;
+    background: #def6f5;
+}
+
+.invitation .row {
+    max-width: 1016px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.invitation .desc {
+    margin-top: 18px;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
+
+.invitation .invitation-btn {
+    min-width: 186px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 14px;
+    line-height: 66px;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 131px;
+    padding-bottom: 50px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer .logo {
+    max-width: 23%;
+}
+
+.footer .body {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #535353;
+}
+
+.footer .body .heading {
+    color: #2e2e2e;
+}
+
+.footer .column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .column li:not(:first-child) {
+    margin-top: 20px;
+}
+
+.footer .column li:first-child {
+    margin-bottom: 25px;
+}
+
+.footer .social li {
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.footer .social img {
+    margin-right: 9px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: scale-down;
+}
+
+.copyright {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #b0b5b4;
+}
