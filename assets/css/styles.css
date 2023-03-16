@@ -455,6 +455,10 @@ a {
     bottom: 0;
 }
 
+.courses .info .item-title a {
+    color: #0d1111;
+}
+
 .courses .info .price {
     margin-top: 16px;
     font-size: 1.6rem;
@@ -494,3 +498,30 @@ a {
     border-radius: 50%;
     background: #1ebfc1;
 }
+
+/* Statistics */
+
+.stats {
+    margin-top: 135px;
+    padding: 65px 0;
+}
+
+.stats .stats-list {
+    max-width: 862px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.stats .stats-item .value {
+    line-height: 1.5;
+}
+
+.stats .stats-item .desc {
+    margin-top: 11px;
+    font-size: 18px;
+    text-align: center;
+    color: #767e7e;
+}
+
+/* student */
