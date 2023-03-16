@@ -718,7 +718,7 @@ a {
 }
 
 .footer .body {
-    width: 650px;
+    width: 55%;
     display: flex;
     justify-content: space-between;
 }
