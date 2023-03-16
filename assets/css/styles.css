@@ -60,9 +60,34 @@ a {
     margin-left: auto;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line2 {
+    --line-clamp: 2;
+}
+
+.line3 {
+    --line-clamp: 3;
+}
+
+.line4 {
+    --line-clamp: 4;
+}
+
+.break-line {
+    word-break: break-all;
+}
+
 /* header */
 .header {
     padding: 52px 0 12px;
+    background-color: #8ec5fc;
+    background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
 }
 .header.sticky {
     position: sticky;
@@ -133,6 +158,10 @@ a {
 .hero .hero-content .title {
     width: 100%;
     margin-top: 18px;
+    background: linear-gradient(43deg, #102bb3 0%, #c72ebd 46%, #e5b761 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .hero .hero-content .desc {
