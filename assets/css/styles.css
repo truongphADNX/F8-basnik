@@ -318,3 +318,62 @@ a {
 .hero .students .avatar:not(:first-child) {
     margin-left: -7px;
 }
+
+/* features */
+
+.features {
+    padding: 65px 0;
+    margin-top: 65px;
+    background: #fdaeae;
+}
+
+.features .sub-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
+
+.features .title {
+    margin-top: 18px;
+    max-width: 577px;
+}
+
+.features .desc {
+    margin-top: 18px;
+    max-width: 590px;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
+
+.features .list {
+    margin-top: 80px;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .item .icon {
+    width: 102px;
+    height: 106px;
+    object-fit: cover;
+    background: #ffc147;
+    border-radius: 18px;
+}
+
+.features .item .item-title {
+    margin-top: 26px;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #0d1111;
+}
+
+.features .item .item-desc {
+    max-width: 225px;
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: #9da6a5;
+}
