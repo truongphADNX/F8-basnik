@@ -324,7 +324,6 @@ a {
 .features {
     padding: 65px 0;
     margin-top: 65px;
-    background: #fdaeae;
 }
 
 .features .sub-title {
@@ -376,4 +375,122 @@ a {
     font-size: 1.6rem;
     line-height: 1.7;
     color: #9da6a5;
+}
+
+/* courses */
+.courses {
+    padding: 65px;
+}
+
+.courses .sub-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
+
+.courses .title {
+    margin-top: 18px;
+}
+
+.courses .row {
+    display: flex;
+    margin-top: 19px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses .row .desc {
+    max-width: 525px;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #767e7e;
+}
+
+.courses .row .link {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-decoration-line: underline;
+    color: #1ebfc1;
+}
+
+.courses .list-courses {
+    margin-top: 79px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.courses .list-courses .images {
+    width: 100%;
+    height: 393px;
+    opacity: 0.35;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.courses .courses-item {
+    position: relative;
+    height: 517px;
+    display: flex;
+    justify-content: center;
+}
+
+.courses .courses-item:hover .images {
+    opacity: 1;
+    box-shadow: 0px 16px 90px rgba(0, 0, 0, 0.05);
+}
+
+.courses .info {
+    position: absolute;
+    width: 325px;
+    max-width: 100%;
+    height: 195px;
+    padding: 18px 25px 29px;
+    background: #ffffff;
+    box-shadow: 0px 16px 90px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    left: auto;
+    bottom: 0;
+}
+
+.courses .info .price {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #767e7e;
+}
+
+.courses .info .desc {
+    margin-top: 6px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #9da6a5;
+}
+
+.courses .info ul {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+}
+
+.courses .info li {
+    position: relative;
+    padding-left: 16px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9da6a5;
+}
+
+.courses .info li::before {
+    position: absolute;
+    display: flex;
+    content: "";
+    width: 6px;
+    height: 6px;
+    left: 1px;
+    bottom: 8px;
+    border-radius: 50%;
+    background: #1ebfc1;
 }
