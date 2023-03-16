@@ -739,11 +739,11 @@ a {
 }
 
 .footer .column li:not(:first-child) {
-    margin-top: 20px;
+    margin-bottom: 18px;
 }
 
 .footer .column li:first-child {
-    margin-bottom: 25px;
+    margin-bottom: 26px;
 }
 
 .footer .social li {
